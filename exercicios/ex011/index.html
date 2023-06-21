@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="mc.ico" type="image/x-icon">
+    <title>Midias HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Abrir em todos os dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto2.png" type="image/png">
+        <img src="imagens/foto3.png" alt="imagem flexivel">
+    </picture>
+    <h1>Audios</h1>
+    <p>Jogada de Mestre</p>
+    <a href="https://youtu.be/_3XwnMdsUzo" target="_blank" rel="external"><img src="imagens/jogadademestre.jpg" alt="raluca"></a>
+    <!--Outro jeito de botar musica
+    <audio preload="metadata" controls loop>
+        <source src="media/corithians.mp3" type="audio/mpeg">
+    </audio>
+-->
+    <p>Último time que representou o Brazzino &downarrow;</p>
+    <audio src="media/corithians.mp3" controls></audio>
+</body>
+</html>
