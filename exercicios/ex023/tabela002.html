@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        thead, tfoot {
+            background-color: rgb(68, 67, 67);
+            color: white;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(128, 255, 0);
+        }
+
+        .freefire1 {
+            text-align: left;
+            background-color: rgb(236, 236, 21);
+        }
+        .freefire2 {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabeals grandes</h1>
+
+    <table>
+        <caption>bucetas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td class="freefire2">Free</td>
+                <td class="freefire1">Fire</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td>67.087.840 Free Fire</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
